@@ -105,3 +105,7 @@ section {
     align-items: center;
     flex-direction: column;
 }
+
+.img {
+    padding: 30px;
+}
