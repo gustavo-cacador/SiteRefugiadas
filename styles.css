@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 .título, .subtítulo {
     width: 100%;
     display: flex;
@@ -99,13 +105,50 @@ section {
     flex-direction: column;
 }
 
-.contatodiv {
+.contatodiv, .contato {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.contatodiv {
+    margin-bottom: 40px;
 }
 
 .img {
     padding: 30px;
+}
+
+.casas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.casas p {
+    max-width: 350px;
+    text-align: center;
+}
+
+.placeholders {
+    margin: 8px;
+}
+
+.nome , .email {
+    padding-right: 120px;
+    font-size: 16px;
+}
+
+.mensagem { 
+    font-size: 16px;
+    padding-right: 120px;
+    padding-bottom: 80px;
+}
+
+.footer {
+    background-color: red;
 }
